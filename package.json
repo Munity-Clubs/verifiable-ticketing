@@ -1,0 +1,44 @@
+{
+  "name": "@munity/verifiable-ticketing",
+  "version": "0.1.0",
+  "description": "Reusable QR ticket and scanner-link primitives for verifiable NFT ticketing.",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "vitest run src/__tests__/verifiable-ticketing.test.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "README.md",
+    "src/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munity-Clubs/verifiable-ticketing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Munity-Clubs/verifiable-ticketing/issues"
+  },
+  "homepage": "https://github.com/Munity-Clubs/verifiable-ticketing#readme",
+  "license": "Apache-2.0",
+  "keywords": [
+    "ticketing",
+    "qr",
+    "nft",
+    "solana",
+    "evm",
+    "scanner"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.18 <23"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.5"
+  }
+}
