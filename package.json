@@ -1,5 +1,5 @@
 {
-  "name": "@munity/verifiable-ticketing",
+  "name": "@munityclubs/verifiable-ticketing",
   "version": "0.1.0",
   "description": "Reusable QR ticket and scanner-link primitives for verifiable NFT ticketing.",
   "type": "module",

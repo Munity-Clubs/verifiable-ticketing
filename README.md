@@ -1,4 +1,4 @@
-# @munity/verifiable-ticketing
+# @munityclubs/verifiable-ticketing
 
 Reusable QR ticket and scanner-link primitives extracted from Munity's
 dual-chain NFT ticketing flow.
@@ -10,7 +10,7 @@ ticket record shape, and scan-result normalization.
 ## Install
 
 ```bash
-npm install @munity/verifiable-ticketing
+npm install @munityclubs/verifiable-ticketing
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ import {
   buildTicketRecord,
   buildScanResult,
   hashOpaqueToken,
-} from "@munity/verifiable-ticketing";
+} from "@munityclubs/verifiable-ticketing";
 
 const ticketId = extractTicketIdFromQrPayload(qrPayload);
 const tokenHash = hashOpaqueToken(scannerToken);

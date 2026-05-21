@@ -14,7 +14,7 @@ import {
   toTicketQrPayload,
 } from "../index.js";
 
-describe("@munity/verifiable-ticketing", () => {
+describe("@munityclubs/verifiable-ticketing", () => {
   it("parses QR payloads from raw ids, JSON, and URLs", () => {
     expect(extractTicketIdFromQrPayload("ticket_123")).toBe("ticket_123");
     expect(extractTicketIdFromQrPayload('{"ticket_id":"ticket_json"}')).toBe(
