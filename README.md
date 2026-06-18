@@ -1,5 +1,10 @@
 # @munityclubs/verifiable-ticketing
 
+[![npm version](https://img.shields.io/npm/v/@munityclubs/verifiable-ticketing.svg?style=flat-square)](https://www.npmjs.com/package/@munityclubs/verifiable-ticketing)
+[![License: Apache-2.0](https://img.shields.io/npm/l/@munityclubs/verifiable-ticketing.svg?style=flat-square)](./LICENSE)
+[![Security Policy](https://img.shields.io/badge/security-policy-blue?style=flat-square)](./SECURITY.md)
+[![Handoff](https://img.shields.io/badge/handoff-doc-green?style=flat-square)](./HANDOFF.md)
+
 Reusable QR ticket and scanner-link primitives extracted from Munity's
 dual-chain NFT ticketing flow.
 
